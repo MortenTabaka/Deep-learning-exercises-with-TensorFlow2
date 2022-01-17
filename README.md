@@ -18,7 +18,7 @@ if not os.path.exists('./data'):
 
 - Ex.3 Multilabel classification PASCAL VOC2007.
 [Pascal VOC2007](http://host.robots.ox.ac.uk/pascal/VOC/voc2007/).
-To download and unzip data set **do_download=True** in the Tabaka_Marcin_Transfer_learning.ipynb.
+To download and unzip dataset **do_download=True** in the Tabaka_Marcin_Transfer_learning.ipynb.
 
 - Ex.4 Augmentation techniques in TensorFlow2 on [image](https://www.wikiart.org/en/alphonse-mucha/winter-1896) (included in repository)
 
@@ -26,6 +26,6 @@ To download and unzip data set **do_download=True** in the Tabaka_Marcin_Transfe
 
 - To install Anaconda follow [Anaconda documentation](https://docs.anaconda.com/anaconda/install/index.html)
 - Open terminal in project directory and run  ```conda env create --name CHOSEN_ENV_NAME --file tf2.yml```  or  ```conda create --name CHOSEN_ENV_NAME --file pkgs.txt```
-- Run environment by ```conda activate CHOSEN_ENV_NAME'
+- Run environment by ```conda activate CHOSEN_ENV_NAME```
 - Run Jupyter by ```jupyter-notebook```
 - Open and run notebooks
